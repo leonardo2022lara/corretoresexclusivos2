@@ -1,0 +1,53 @@
+/* CSS Document */
+
+.section {
+  background: gray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  height: 100px;
+  flex: 1;
+}
+
+.content.small {
+  flex: 2;
+}
+
+.content.big {
+  flex: 6;
+}
+
+/* color styles [ignore] */
+.content {
+  font-family: arial;
+  color: white;
+  text-align: center;
+}
+
+.content:nth-child(1) {
+  background: red;
+}
+
+.content:nth-child(2) {
+  background: green;
+}
+
+/*.content:nth-child(3) {
+  background: blue;
+}*/
+
+.purple {
+  background: purple !important;
+}
+
+body {
+  margin: 0;
+}    

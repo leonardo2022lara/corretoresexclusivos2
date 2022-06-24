@@ -1,0 +1,87 @@
+/* HEIGHT 100% */
+html, body {height: 100%;}
+.bloco {min-height: 100%; padding-top: 94px;}
+.bloco-form { padding-left: 20px; padding-right: 20px; }
+
+/* LOGO */
+.logo_text {font-size: 0; margin: 0;}
+.logo_img {width: 100px; margin-top: 15px;}
+
+
+/* MENU */       
+.navbar {background-color: gray; background: url('../img/textura2.png');}
+.navbar ul a:hover {background-color: gray; color: white;}
+.navbar ul li {background-color: ; background: url('../img/textura2.png');}
+
+
+/* COLORS */
+.blue-logo {background-color: #000000;}
+nav {color: #000000;}
+
+
+/* HOME */                                 
+.home {animation: mudarbg 20s infinite ; /*background-image: url('../img/bg.jpg');*/ background-repeat: no-repeat; background-size:cover;}
+.home .col-formulario {width: 25%;}
+.home .col-video {width: 4  0%;}
+
+nav ul a {color: #000000;}
+
+nav {
+  color: blue;
+  background-color: gray;
+  width: 100%;
+  height: 94px;
+  line-height: 94px;
+}
+
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+  height: auto;
+}
+
+.navbar-fixed {
+  position: absolute;
+  height: 94px;
+  z-index: 997;
+}
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height: 94px;
+  line-height: 94px;
+}
+
+.side-nav {background: url('../img/textura2.png');}
+.side-nav li>a {color:  #000000; font-weight: 100;}
+
+/* BANNER DETALHE-IMOVELa */
+.detalhe-imovel .card .card-image {align-content: center; align-items: center; }
+.detalhe-imovel .card .card-image img {width: 80%; align-content: center; padding-bottom: 2px;}
+.detalhe-imovel t2 {font-size: 1.5rem;}
+
+/* Condominio */
+.condominio .foto-imovel { width: 100%; padding-bottom: auto; }
+.condominio .card .card-image img {}
+
+
+/* UNIDADES */
+.unidades {background-image: url('../img/bg-unidades.jpg'); background-repeat: no-repeat;
+background-size: cover; background-attachment: fixed;}
+.unidades article p {line-height: 1.8rem;}
+
+/* SOBRE */
+.sobre {margin-top: 100px; background-image: url('../img/textura1.png')}
+.sobre p {line-height: 1.8rem; text-align: justify;}
+.sobre .missao-visao-valores {padding: 20px 0; margin-top: 35px;}
+.sobre .missao-visao-valores .icon {color: #fff;}
+.sobre .missao-visao-valores h3 {font-size: 1.5rem; color: #fff; text-transform: uppercase;}
+.sobre .missao-visao-valores p {color: #fff; text-align: center;}
+
+
+
+@media only screen and (max-width: 480px) {
+  
+}

@@ -1,0 +1,521 @@
+<!DOCYTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Centro Boa Forma - Seu espaço de saude</title>
+		<link rel="icon" href="img/fav.png">
+		<!-- GOOGLE ICONS -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">		
+	    <link rel="stylesheet" href="css/custom.css">
+	    <link rel="stylesheet" href="css/colunas-flexbox.css">
+	</head>
+	<body>
+
+	<!-- HEADER -->
+	<header>
+		 <!-- MENU MOBILE -->
+		 <ul class="side-nav" id="menu-mobile">
+			<li><a class="hide-menu" href="#home">Home</a></li>
+			<li><a class="hide-menu" href="#sobre">Sobre o Boa Forma</a></li>
+			<li><a class="hide-menu" href="#servicos">Serviços</a></li>
+			<li><a class="hide-menu" href="#unidades">Unidades</a></li>
+			<li><a class="hide-menu" href="#contato">Contato</a></li>
+		</ul>
+
+		<div class="navbar-fixed">
+			<nav class="navbar z-deph-0">
+				<div class="nav-wrapper container">
+					<h1 class="logo_text">Corretores Exclusivos</h1>
+					<a href=""><img class="logo_img" src="img/logo.png" alt="Corretores Exclusivos"></a>
+					
+					<ul class="right light hide-on-med-and-down nav-aux">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#condominio">Imóveis</a></li>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+
+
+
+
+					<a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="home bloco bloco-form scrollspy" id="home">
+		<div class="container">
+			<div class="content small">
+                 	
+                 	<p align="center"><h4>Encomende seu Imóvel</h4></p>
+					<form action="encomende-email.php" method="post">
+
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Seu nome</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" name="email" id="email">
+                            <label for="email">Seu email</label>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" name="telefone" id="telefone">
+                            <label for="telefone">Telefone</label>
+                        </div>
+
+                        <div class="input-field">
+                            <textarea id="message" name="message" class="materialize-textarea"></textarea>
+                            <label for="message">Característica do Imóvel:</label>
+                        </div>
+
+                        <button class="btn blue	-logo" type="submit"> Enviar </button>
+                    </form>
+			</div>
+			<div class="content big">	
+				<div class="col s12 m6 l3">
+					<div class="carousel carousel-slider" data-indicators="true">
+						<a href="#detalhe-imovel" class="carousel-item">
+							<img alt="Imagem Institucional" src="img/banner-01.jpg">
+						</a>
+						<a href="#detalhe-imovel" class="carousel-item">
+							<img alt="Imagem Institucional" src="img/banner-02.jpg">
+						</a>
+						<a href="#detalhe-imovel" class="carousel-item">
+							<img alt="Imagem Institucional" src="img/banner-03.jpg">
+						</a>
+					</div>
+					<P>clique na foto para ver imóvel</P>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="detalhe-imovel bloco scrollspy" id="detalhe-imovel">
+		<div class="row container">
+			<div class="col s12 m6 l3">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto1.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto2.jpg" alt="Condominio1 foto2" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto3.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto4.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto5.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto6.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div class="row container">
+			<div class="col s12 m6 l3">
+				<div class="card ">
+					<div class="card-image">
+						<img src="img/cvfoto7.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto8.jpg" alt="Condominio1 foto2" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto9.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto10.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto11.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+			<div class="col s12 m6 l3 center">
+				<div class="card">
+					<div class="card-image">
+						<img src="img/cvfoto12.jpg" alt="Condominio1 foto1" class="materialboxed">
+					</div>
+				</div>
+			</div>						
+		</div>
+		<div class="row container"> 
+			<div class="col s12 center">
+			 		<t2>Casa de Condomínio com 8 Quartos e 7 <br>banheiros à Venda, 700 m² por R$ 1.450.00</t2>
+			 		<p> 700m²     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 		8 quartos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 banheiros &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			 	    10 vagas</p>
+			 	    <p>CÓDIGO: cv01	<a href="#cv01-modal" class="modal-trigger"><u>MAIS DETALHES</u></a></p>
+			 		<p align="left" class="light";>Estuda Permuta.<br>
+					Imóvel em lote de 1000 m2 com casa de madeira (Paraju e Peroba Rosa), construída em kit montado de igual modo.<br> Portas em madeira maciça e acabamentos. Projetos hidráulico, elétrico e paisagista.<br>
+					Construída em três áreas, sendo a casa de madeira, área de garagem para abrigo de 8 veículos, oficina, duas suítes (uma inferior e outra superior), quarto de despejo e banheiro.<br> Além de canil e um porão para acomodações.<br>
+					Área gourmet com balcões, armários planejados e mobiliário completo e planejado.<br> Cômodo superior composto por um quarto de 17mX18m, banheiro com hidromassagem e dois banhos.<br>
+					Casa constituída de três andares, sendo:<br>
+					<b>Térreo:</b> copa, sala de TV, cozinha, área de serviço, lavabo, dois quartos e um banheiro.<br>
+					<b>2º andar:</b> Suíte com closet e um quarto ao lado.<br>
+					<b>3º andar:</b> Sala ou quarto – pode ser usado para abrigar os dois ambientes e banheiro</p>
+					<p align="left">
+					&nbsp;&nbsp;&nbsp;-Espaço Gourmet<br>
+					&nbsp;&nbsp;&nbsp;-Garagem com banheiro e oficina<br>
+					&nbsp;&nbsp;&nbsp;-canil<br>
+					&nbsp;&nbsp;&nbsp;-08 quartos, sendo 05 suítes<br>
+					&nbsp;&nbsp;&nbsp;-01 copa<br>
+					&nbsp;&nbsp;&nbsp;-01 sala de TV<br>
+					&nbsp;&nbsp;&nbsp;-Cozinha/Área de serviço<br>
+					&nbsp;&nbsp;&nbsp;-02 quartos de despejo.<br>
+					Proprietário estuda permuta por apartamento de 4 quartos em Belo Horizonte.</p>
+					<a href="#home"><h5 class="light titulo back-text center"> Voltar </h5></a>
+		</div>
+		<!-- MODAL CASA01 CONDOMINIO VILLAGE -->
+		<div class="modal" id="cv01-modal">
+			<div class="modal-content">
+				<h5 class="light"> CARACTERÍSTICAS </h5> 
+				<h5 class="light">  </h5> 
+				<ul class="collection">
+					<li class="collection-item"> Condomínio Fechado</li>
+					<li class="collection-item"> Portaria 24 horas</li>
+					<li class="collection-item"> Aceita Animais</li>
+					<li class="collection-item"> Ar Condicionado</li>
+					<li class="collection-item"> Closet</li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<a class="btn blue-logo modal-action modal-close"> Sair </a>
+			</div>
+		</div>		
+	</section>
+	<section class="condominio bloco bloco-form scrollspy" id="condominio">
+		<div class="row container">	
+			<div class="col s12 center">
+    			<h3 class="light titulo">Imoveis</h3>
+    		</div>
+    	</div>
+    	<div class="row container">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#condominio"><h6>Condomínios horizontais     </h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#imoveisbh"><h6><u> Imoveis BH                  -</u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sitios"><h6><u> Fazendas / Sítios / Chácaras</u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lotes"><h6><u> Lotes                       </u></h5></a></br></br>
+        </div>
+        <p align="center">Condominios Horizontais</p>
+        <div class="row container">
+        		<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/Condominio1.jpg" alt="Pilates">
+							</div>
+						</div>		
+					</a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/condominiocamposdaliberdadelagoasanta.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/condominiovespasiano.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+		</div>
+	</section>
+
+	<section class="imoveisbh bloco bloco-form scrollspy" id="imoveisbh">
+		<div class="row container">	
+			<div class="col s12 center">
+    			<h3 class="light titulo">Imoveis</h3>
+    		</div>
+    	</div>
+    	<div class="row container">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#condominio"><h6><u>Condomínios horizontais     </u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#imoveisbh"><h6> Imoveis BH                  </h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sitios"><h6><u> Fazendas / Sítios / Chácaras</u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lotes"><h6><u> Lotes                       </u></h6></a></br></br>
+        </div>
+        <p align="center">Imoveis BH</p>
+        <div class="row container">
+        		<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/salalourdes.jpg" alt="Pilates">
+							</div>
+						</div>		
+					</a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/apartamentobh1.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/apartamentobh2.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/salabarropretobh.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+		</div>
+	</section>
+
+
+	<section class="imoveisbh bloco bloco-form scrollspy" id="sitios">
+		<div class="row container">	
+			<div class="col s12 center">
+    			<h3 class="light titulo">Imoveis</h3>
+    		</div>
+    	</div>
+    	<div class="row container">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#condominio"><h6><u>Condomínios horizontais     </u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#imoveisbh"><u><h6> Imoveis BH                  </u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sitios"><h6> Fazendas / Sítios / Chácaras</h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lotes"><h6><u> Lotes                       </u></h6></a></br></br>
+        </div>
+        <p align="center">Fazenda / Sítios / Chácaras</p>
+        <div class="row container">
+        		<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/sitiofunilandia.jpg" alt="Pilates">
+							</div>
+						</div>		
+					</a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/sitioprudentedemorais.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+		</div>
+	</section>
+	<section class="imoveisbh bloco bloco-form scrollspy" id="lotes">
+		<div class="row container">	
+			<div class="col s12 center">
+    			<h3 class="light titulo">Imoveis</h3>
+    		</div>
+    	</div>
+    	<div class="row container">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#condominio"><h6><u>Condomínios horizontais     </u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#imoveisbh"><u><h6> Imoveis BH                  </u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#sitios"><h6><u> Fazendas / Sítios / Chácaras</u></h6></a>
+                 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lotes"><h6> Lotes                       </h6></a></br></br>
+        </div>
+        <p align="center">Lotes</p>
+        <div class="row container">
+        		<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/loteparademinas.jpg" alt="Pilates">
+							</div>
+						</div>		
+					</a>
+				</div>
+				<div class="col s12 m6 l4">		
+					<a href="#detalhe-imovel">
+						<div class="foto-imovel card">
+							<div class="card-image">
+								<img src="img/lotelagoasanta.jpg" alt="Pilates">
+							</div>
+						</div>		
+				    </a>
+				</div>
+
+		</div>
+	</section>
+
+	<!-- SOBRE -->
+    <section class="sobre bloco scrollspy" id="sobre">
+    	<div class="row container">
+    		<div class="col s12 center">
+    			<h2 class="light titulo">Sobre nós</h2>
+    		</div>
+    	</div>
+    	<div class="row container">
+    		<div class="col s12 l6">
+    			<p class="light">
+    		     A empresa Corretores Exclusivos, localizada no bairro Ouro Preto, em Belo Horizonte-MG foi fundada em 2010. A atividade principal da empresa é Corretagem na Compra e Venda e Avaliação de Imóveis.
+			     Temos experiência na area Sul de Belo Horizonte e em condominios horizontais da grande bh.
+
+			     <br><br>Conseguimos parcerias com as maiores redes de imobiliárias de BH e possibilitamos mostrar o imóvel que precisa com preço justo.
+    			</p>
+    		</div>
+
+    		<div class="col s12 l6">
+    			<div class="carousel carousel-slider" data-indicators="true">
+    				<a href="#" class="carousel-item">
+    					<img alt="Imagem institucional" src="img/banner-01.jpg">
+    				</a>
+
+    				<a href="#" class="carousel-item">
+    					<img alt="Imagem institucional" src="img/banner-02.jpg">
+    				</a>
+
+    				<a href="#" class="carousel-item">
+    					<img alt="Imagem institucional" src="img/banner-03.jpg">
+    				</a>
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<div class="row blue-logo missao-visao-valores">
+    		<div class="container">
+    			<article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">directions_run</i></span>
+    				<h3 class="light">Missão</h3>
+    				<p class="light">Promover a saúde e bem-estar dos clientes com ações de prevenção, promoção e reabilitação,através de tratamentos eficazes e humanizados em Fisioterapia e suas vertentes.</p>    				
+    			</article>
+
+    			<article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">visibility</i></span>
+    				<h3 class="light">Visão</h3>
+    				<p class="light">Tornar-se referência no cenário estadual, buscando a excelência dos serviços prestados, além de promover o desenvolvimento técnico-científico de sua equipe e da sociedade.</p>   				
+    			</article>
+
+    			<article class="item col s12 m4 center">
+    				<span class="icon"><i class="material-icons medium">grade</i></span>
+    				<h3 class="light">Valores</h3>
+    				<p class="light">
+    					 • Agir com ética frente aos clientes e colaboradores.<br>
+    					 • Tornar o ambiente de trabalho o mais familiar possível.<br>
+    					 • Priorizar a qualidade e excelência do atendimento, valorizando e qualificando a equipe. 
+    				</p>    				
+    			</article>
+    		</div>
+    	</div>
+    </section>
+    
+
+<!-- SOBRE -->
+    <section class="contato bloco scrollspy" id="contato">
+    	<div class="row container">
+    		<div class="col s12 center">
+    			<h2 class="light titulo">Contato</h2>
+    		</div>
+    	</div>
+    </section>
+
+		<!-- JQUERY -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	
+		<! MATERIALIZE JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+	<!-- JAVASCRIPT -->
+	<script>
+	    // INICIALIZAÇÃO 
+		$(document).ready(function(){
+			// MENU MOBILE
+			$(".button-collapse").sideNav();
+			// LINK INTERNO
+			$(".scrollspy").scrollSpy({
+				scrollOffset: 0
+			});	        	
+        	// CAROUSEL
+        	$(".carousel.carousel-slider").carousel({
+        		fullWidth:true
+        	});
+        	// MODAL
+        	$(".modal").modal();
+            // TABS
+            $("ul.tabs").tabs();
+            // ESCONDER MENU AO CLICAR
+            $(".hide-menu").click(function(){
+                $(".button-collapse").sideNav("hide");
+            });
+            // AUTOPLAY
+            function autoplay() {
+                $(".carousel").carousel("next");
+                setTimeout(autoplay, 4500);
+            }
+
+            autoplay();
+            $(window).on("scroll", function(){
+				if($(window).scrollTop() > 100) {
+					$(".navbar").addClass("nav-color");
+				} else {
+					$(".navbar").removeClass("nav-color");
+			}
+		});
+		});        
+    </script>
+
+	</body>
+</html>
